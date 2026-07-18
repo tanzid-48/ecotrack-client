@@ -42,7 +42,10 @@ export default function RegisterPage() {
   }
 
   async function handleGoogleSignup() {
-    await signIn.social({ provider: "google", callbackURL: "/dashboard" });
+    await signIn.social({
+      provider: "google",
+      callbackURL: `${window.location.origin}/dashboard`,
+    });
   }
 
   return (
