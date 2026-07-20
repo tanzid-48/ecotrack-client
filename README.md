@@ -41,6 +41,18 @@ EcoTrack is a full-stack agentic AI application where users log daily habits (co
 
 ---
 
+## 🧭 How to Use
+
+1. **Create an account** — register with email/password, Google, or click **"Use demo credentials"** on the login page (`demo@ecotrack.app` / `demo1234`)
+2. **Log your day** — go to your **Dashboard** and enter today's commute, electricity use, diet, and waste. Your carbon footprint is calculated automatically and plotted on your trend chart
+3. **Get AI insight** — click **Analyze my footprint** for a trend breakdown + downloadable PDF report, or **Get recommendations** for personalized tips and matched community challenges
+4. **Explore challenges** — browse `/challenges`, filter by category/difficulty, and open any challenge to read details, leave a review, or join it
+5. **Publish your own challenge** — from **Add Challenge**, write a title and let the **AI Content Generator** draft the description for you, then publish
+6. **Track your profile** — your avatar menu (top right) has **Profile** (your stats + joined/published challenges) and **Dashboard**
+7. **Manage what you've made** — **Manage Challenges** lets you view or delete challenges you've published
+
+---
+
 ## 🛠️ Tech Stack
 
 **Frontend**
