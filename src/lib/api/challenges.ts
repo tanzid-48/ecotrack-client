@@ -44,6 +44,10 @@ export function getMyChallenges(): Promise<Challenge[]> {
   return apiFetch(`/api/challenges/mine/list`);
 }
 
+export function getJoinedChallenges(): Promise<Challenge[]> {
+  return apiFetch(`/api/challenges/joined/list`);
+}
+
 export function createChallenge(data: Partial<Challenge>): Promise<Challenge> {
   return apiFetch(`/api/challenges`, {
     method: "POST",
